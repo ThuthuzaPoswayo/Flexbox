@@ -5,3 +5,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.box{
+    background-color: pink;
+    font-size: 100px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+
+}
+#box1{
+    font-style: italic;
+    border-style: dotted;
+}
+#box2{
+    font-style: italic;
+    border-style: dotted;
+
+}
